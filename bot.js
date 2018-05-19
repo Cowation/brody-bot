@@ -23,7 +23,6 @@ function play(connection, message) {
 
 bot.on("ready", function() {
     bot.user.setActivity("Use ?help for help.");
-    console.log("wasd");
 });
 
 bot.on("message", (message) => {
