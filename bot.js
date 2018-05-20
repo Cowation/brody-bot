@@ -24,7 +24,7 @@ fs.readdir("./commands/", (err, files) => {
     });
 })
 
-const token = "NDQ3MTg1NTc2MDU2MDYxOTUy.DeD5iQ.CDtxAnLD7JDH6iIwGm8J6L1pT18"; // Token for bot.
+const token = process.env.BOT_TOKEN; // Token for bot.
 
 var prefix = "?";
 
